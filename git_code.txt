@@ -1,0 +1,119 @@
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git add .
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git commit -m .
+[main d6be20c] .
+ 1 file changed, 1 insertion(+)
+ create mode 100644 day4.txt
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git pull origin main
+From https://github.com/Adiambad666/project1
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Adiambad666/project1.git
+   2d747ce..d6be20c  main -> main
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git branch
+* main
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git branch aditya
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git branch
+  aditya
+* main
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git switch aditya
+Switched to branch 'aditya'
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git branch
+* aditya
+  main
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
+$ git checkout aditya
+Switched to branch 'aditya'
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git branch akshat
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git branch
+* aditya
+  akshat
+  main
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git checkout akshat
+Switched to branch 'akshat'
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git merge akshat
+Already up to date.
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git merge aditya
+Already up to date.
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git branch testing
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git merge testing
+Already up to date.
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git branch
+  aditya
+* akshat
+  main
+  testing
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git swtitch aditya
+git: 'swtitch' is not a git command. See 'git --help'.
+
+The most similar command is
+        switch
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (akshat)
+$ git switch aditya
+Switched to branch 'aditya'
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git branch
+* aditya
+  akshat
+  main
+  testing
+
+IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (aditya)
+$ git merge
