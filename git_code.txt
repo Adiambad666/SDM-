@@ -1,3 +1,19 @@
+git init
+git config --global user.email "" 
+git config --global user.name "" 
+git status
+git add filename // git add .
+git commit -m " any mssg "
+git clone url-name
+git branch
+git merge branch-name
+git checkout branch-name  // git switch branch-name
+git restore 
+git diff
+git remote add origin url-name
+git push origin branch_name
+git pull
+
 IET@DESKTOP-M7O3UDB MINGW64 /c/A A 2/project1 (main)
 $ git add .
 
