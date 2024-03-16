@@ -1,0 +1,24 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class tst1 {
+	public static void main(String[] args){
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+			//Thread.sleep(5000);
+			
+//			System.setProperty("WebDriver.chrome.driver","C://Program Files//Google//Chrome//Application//chrome.exe");
+//			driver.get("https://www.google.com");
+			
+			driver.get("https://www.saucedemo.com");
+			WebElement name = driver.findElement(By.name("user-name"));
+			name.sendKeys("standard_user");
+			
+			WebElement password = driver.findElement(By.id("password"));
+			password.sendKeys("password");
+			
+		}
+	}
