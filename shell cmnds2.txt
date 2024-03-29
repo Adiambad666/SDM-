@@ -1,0 +1,67 @@
+ls - to list files in current directory
+pwd - print working directory
+mkdir  - to make new directory // mkdir folderName
+cd - to move inside a directory  // cd folderName         // cd .. - to move back by a single directory
+rmdir -  to remove a directory //rmdir folderName
+touch -  to create a files // touch filename
+echo - to print any message // echo "message"
+sudo clear  - to clear window/screen //sudo clear
+cp - to copy file/data from one file to directory or one file to another file
+     // cp fileName DirName ,,,,, cp fileName1 fileName2 
+head - to print first 10 lines of file //head filename
+tail - to print last 10 lines of file //tail filename
+mv -  to move file/folder from one dir to another (MOVE NOT COPY) // 	mv filename dirNAme
+vi - to enter data in a file // vi- filename 
+                                then to insert press i
+                                add anydata
+                                to quit ~wq
+rm - to delete file in a directory  // rm filename
+
+*********NOTE-- to delete a directory like (for using rmdir) folder should be empty.*******
+
+cat - to read and enter content in a file
+      syntax to enter - cat > filename
+             to read - cat filename           
+  
+ls -a
+ls -n
+
+chmod - change mode 
+chmod 777 filename
+less cmnd- to enter in a file and just read it// less filename
+mv --help | grep (any charatcter from help list)
+nano filename - to make any file and perform different operations on it 
+                nano abc.txt  --- normal text file
+                nano abc.sh --- scripting file
+
+*************************  HOW TO CREATE PROGRAM ***************************************************
+IN NANO IDE
+nano filename - to make any file and perform different operations on it 
+                nano abc.txt  --- normal text file
+                nano abc.sh --- scripting file
+
+
+  #!\bin\bash #first file   [HEADER COMMAND]
+   ch =adi;
+  a=so;
+  b="aditya ambad";
+  c=ladegaon;
+   d="shivaji nagar";
+  echo "$a $b $c $d"	//// to print the variables
+
+ ******************************  HOW TO RUN   *************************************
+ in TERMINAL
+1 chmod 777 filename /// to give permission to that file
+2 ./filename /// to run / print the variables
+
+
+**************************** if else statments ******************************************************* 
+
+if else condition ke time rule1 == no ; after variable declaration
+                          rule2 == space required after every word
+                          rule3 == while assigning value to variable DONT give space and semicolon  eg - age=90 [correct]   age = 90 [wrong]  age=90; [wrong]
+
+
+
+echo - to print 
+read - to take input /// read age; or read age [Correct]

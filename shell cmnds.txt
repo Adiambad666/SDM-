@@ -1,0 +1,30 @@
+ls - to list files in current directory
+pwd - print working directory
+mkdir  - to make new directory // mkdir folderName
+cd - to move inside a directory  // cd folderName         // cd .. - to move back by a single directory
+rmdir -  to remove a directory //rmdir folderName
+touch -  to create a files // touch filename
+echo - to print any message // echo "message"
+sudo clear  - to clear window/screen //sudo clear
+cp - to copy file/data from one file to directory or one file to another file
+     // cp fileName DirName ,,,,, cp fileName1 fileName2 
+head - to print first 10 lines of file //head filename
+tail - to print last 10 lines of file //tail filename
+mv -  to move file/folder from one dir to another (MOVE NOT COPY) // 	mv filename dirNAme
+vi - to enter data in a file // vi- filename 
+                                then to insert press i
+                                add anydata
+                                to quit ~wq
+rm - to delete file in a directory  // rm filename
+
+*********NOTE-- to delete a directory like (for using rmdir) folder should be empty.*******
+
+cat - to read and enter content in a file
+      syntax to enter - cat > filename
+             to read - cat filename           
+  
+ls -a
+ls -n
+
+chmod - change mode 
+chmod 777 filename
